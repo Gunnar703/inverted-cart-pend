@@ -69,7 +69,7 @@ This admits the solution
 ```
 
 # Pole Placement
-Without loss of generality, let $\mathbf{z}(t) = \mathbf{x}^* - \mathbf{x}(t)$ where $\mathbf{x}^*$ is a reference state and $\mathbf{x}(t)$ is the current state. Pole placement finds a matrix $\left[A\right]$ with all negative eigenvalues. If $\left[A\right]$ has negative eigenvalues,
+Without loss of generality, let $\mathbf{z}(t) = \mathbf{x}^* - \mathbf{x}(t)$ where $\mathbf{x}^*$ is a reference state and $\mathbf{x}(t)$ is the current state. Pole placement finds a matrix $\left[K\right]$ such that $\left[A\right]$ has all negative eigenvalues. If $\left[A\right]$ has negative eigenvalues,
 ```math
 \lim_{t\to\infty}\mathbf{z}(t) = 0 \implies \lim_{t\to\infty}\mathbf{x}(t) = \mathbf{x}^*
 ```
