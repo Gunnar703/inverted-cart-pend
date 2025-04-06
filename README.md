@@ -76,8 +76,10 @@ Without loss of generality, let $\mathbf{z}(t) = \mathbf{x}^* - \mathbf{x}(t)$ w
 
 # Results
 Uncontrolled system ($\theta_0=0.1$, $\dot{x}_0=0.1$)
+
 ![unforced](https://github.com/Gunnar703/inverted-cart-pend/assets/109893121/64c0b4af-d8c1-4486-99b9-9c880afa1b11)
 
 Controlled system (same ICs, reference state of $(0, 0, 0, 0)$ )
+
 ![forced](https://github.com/Gunnar703/inverted-cart-pend/assets/109893121/628057e0-f804-44a1-b676-15cfeaec9fba)
 
